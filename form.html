@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>質問・感想フォーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>質問・感想フォーム</h1>
+    <div id="b">
+    <p>氏名</p>
+    <input type="text">
+    <div >性別</div>
+    <label>
+        <div class="janru">
+            <input type="radio" name="sei" value="male">男
+        </div>
+    </label>
+    <label>
+        <div class="janru">
+        <input type="radio" name="sei" value="female">女
+        </div>
+
+    </label>
+
+    <div>年齢</div>
+    <select name="年齢">
+        <option selected>10代</option>
+        <option>20代</option>
+        <option>30代</option>
+        <option>40代</option>
+        <option>50代</option>
+        <option>60代</option>
+    </select>
+
+     <div>今後見てみたいレシピ</div>
+     <label>
+    <div class="janru"><input type="checkBox" name="yes" value check>和食</div></label>
+    <label><div class="janru"><input type="checkBox" name="yes" value check>中華</div></label>
+    <label><div class="janru"><input type="checkBox" name="yes" value check>洋食</div></label>
+    <label><div class="janru"><input type="checkBox" name="yes" value check>イタリアン</div></label>
+    <label><div class="janru"><input type="checkBox" name="yes" value check>スイーツ</div></label>
+        <label><div class="janru"><input type="checkBox" name="yes" value check>その他</div></label>
+     
+
+    <div>自由コメント欄</div>
+    <textarea name="free" rows="3" cols="30" placeholder="自由に意見を記述してください"></textarea>
+<div>
+    <button type="submit">送信</button>
+    <button type="submit">取り消し</button></div>
+    </div>
+    
+    
+
+
+</body>
+</html>

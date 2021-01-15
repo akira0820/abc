@@ -1,0 +1,45 @@
+ h1{
+    text-align:center;
+}
+.kitchin{
+    text-align:center;
+}
+li{
+    list-style-type:circle;
+}
+.abc{
+    text-align:center;
+}
+
+body{
+    background-image:url(images/bg_Argyle.jpg);
+
+}
+
+.font{
+    text-align:center;
+    border:double;
+    border-color:red;
+    display:inline-block;
+    margin-left:370px;
+}
+
+caption{
+    color:palevioletred;
+}
+
+table{
+    border-color:pink;
+}
+
+.choco{
+    float:left;
+}
+.clear{
+    clear:left;
+}
+
+
+
+
+
